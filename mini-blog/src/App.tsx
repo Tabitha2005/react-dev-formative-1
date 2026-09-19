@@ -1,5 +1,12 @@
+import PostList from './components/PostList'
+import { posts } from './data/posts'
+
 function App() {
-  return <h1>Dev Insights</h1>
+  return (
+    <main>
+      <PostList posts={posts} />
+    </main>
+  )
 }
 
 export default App
