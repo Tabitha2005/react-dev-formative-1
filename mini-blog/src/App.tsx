@@ -1,11 +1,16 @@
+import Header from './components/Header'
 import PostList from './components/PostList'
 import { posts } from './data/posts'
 
+
 function App() {
   return (
-    <main>
-      <PostList posts={posts} />
-    </main>
+    <>
+      <Header />
+      <main>
+        <PostList posts={posts} />
+      </main>
+    </>
   )
 }
 
