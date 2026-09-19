@@ -1,0 +1,27 @@
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+}
+
+.post-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.post-meta {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-preview {
+  line-height: 1.6;
+}

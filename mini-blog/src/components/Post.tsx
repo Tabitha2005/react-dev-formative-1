@@ -1,5 +1,6 @@
 import type { Post as PostData } from '../types/post'
 import { getPreview, formatDate } from '../utils/format'
+import '../styles/post.css'
 
 interface PostProps {
   post: PostData

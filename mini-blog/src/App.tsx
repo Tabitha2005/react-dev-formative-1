@@ -1,6 +1,8 @@
 import Header from './components/Header'
 import PostList from './components/PostList'
 import { posts } from './data/posts'
+import './styles/app.css'
+
 
 function App() {
   return (

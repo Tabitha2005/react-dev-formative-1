@@ -1,0 +1,10 @@
+.app-main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.app-heading {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
