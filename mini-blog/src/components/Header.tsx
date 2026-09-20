@@ -4,7 +4,9 @@ import '../styles/header.css'
 function Header() {
   return (
     <header className="header">
-      <div className="header-logo">Dev Insights</div>
+      <div className="header-logo">
+        <span style={{ color: '#a5b4fc' }}>Dev</span> Insights
+      </div>
       <nav className="header-nav">
         <a href="#new-post" className="header-link">
           New Post
