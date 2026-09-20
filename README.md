@@ -7,7 +7,7 @@ A small internal blog front end for the fictional startup "Dev Insights", where 
 This project uses **Vite**. The app lives in the `mini-blog` folder.
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Tabitha2005/react-dev-formative-1.git
 cd react-dev-formative-1/mini-blog
 npm install
 npm run dev
