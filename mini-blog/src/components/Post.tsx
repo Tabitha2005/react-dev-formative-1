@@ -1,6 +1,7 @@
 import type { Post as PostData } from '../types/post'
 import { getPreview, formatDate, isNew } from '../utils/format'
 import '../styles/post.css'
+import { memo } from 'react'
 
 const HIGHLIGHTED_AUTHOR = 'Amara Okafor'
 
@@ -26,4 +27,4 @@ function Post({ post }: PostProps) {
   )
 }
 
-export default Post
+export default memo(Post)
