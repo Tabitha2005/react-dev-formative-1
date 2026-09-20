@@ -2,7 +2,7 @@
 
 A small internal blog front end for the fictional startup " Dev Insights‍", where employees can share quick web development tips. Built with React, TypeScript, and Vite, with no templates beyond the standard 'react-ts` Vite scaffold.
 
-## How‍ t‍o install, run and tes t
+## How‍ t‍o install, run and test
 
 This project uses **Vite**. The app lives in‍ the `mini-blog` folder.
 
