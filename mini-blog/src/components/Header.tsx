@@ -1,5 +1,5 @@
 import '../styles/header.css'
-
+import withLogger from '../hoc/withLogger'
 
 function Header() {
   return (
@@ -16,4 +16,4 @@ function Header() {
   )
 }
 
-export default Header
+export default withLogger(Header)
