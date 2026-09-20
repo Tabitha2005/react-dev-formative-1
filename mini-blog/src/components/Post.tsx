@@ -1,15 +1,23 @@
 import type { Post as PostData } from '../types/post'
-import { getPreview, formatDate } from '../utils/format'
+import { getPreview, formatDate, isNew } from '../utils/format'
 import '../styles/post.css'
+
+const HIGHLIGHTED_AUTHOR = 'Amara Okafor'
 
 interface PostProps {
   post: PostData
 }
 
 function Post({ post }: PostProps) {
+  const isHighlighted = post.author === HIGHLIGHTED_AUTHOR
+  const className = isHighlighted ? 'post post--highlighted' : 'post'
+
   return (
-    <article className="post">
-      <h2 className="post-title">{post.title}</h2>
+    <article className={className}>
+      <h2 className="post-title">
+        {post.title}
+        {isNew(post.date) && <span className="post-badge">New!</span>}
+      </h2>
       <p className="post-meta">
         By {post.author} on <time dateTime={post.date}>{formatDate(post.date)}</time>
       </p>

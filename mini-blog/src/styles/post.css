@@ -25,3 +25,19 @@
 .post-preview {
   line-height: 1.6;
 }
+
+.post--highlighted {
+  background: #eef2ff;
+  border-left: 4px solid #4f46e5;
+}
+
+.post-badge {
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  background: #dc2626;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 999px;
+  vertical-align: middle;
+}

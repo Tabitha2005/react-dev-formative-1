@@ -11,3 +11,8 @@ export function formatDate(isoDate: string): string {
     year: 'numeric',
   })
 }
+
+export function isNew(isoDate: string, hours = 24): boolean {
+  const age = Date.now() - new Date(isoDate).getTime()
+  return age >= 0 && age < hours * 60 * 60 * 1000
+}
